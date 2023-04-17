@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="cointainer">
+            <nav>
+                <div class="logo"><a href="#">Saikat.<span>Portfolio.</span></a></div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <!-- <div class="firstImg">
+                <img src="img.png" height="500px"
+                    style="float:right; padding-top: 25px;border-radius: 20px; box-shadow: 5px 10px 5px rgb(102, 187, 215)">
+            </div> -->
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Saikat Sen.</span> <br>
+                    form <span>Jalpaiguri, WestBengal</span>
+                    <h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------------about--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subTitle">About Me</h1>
+                    <p style="font-size:20px; color:rgb(209, 221, 164)">My name is Saikat Sen. I'm an B-Tech student at
+                        BUIE Computer Science Department.
+                        I am a Fullstack Developer.I like to development the webpage's both part.
+                        I am also a team player and hard work person.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Educations</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web development</span><br>Web app Development</li>
+                            <li><span>UI/UX</span><br>Web app Design</li>
+                            <li><span>Marketing</span><br>Digital Marketing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>April,2022 - July,2022</span><br>Fullstack Development Training at Digitute</li>
+                            <li><span>July,2022</span><br>Php Training at Xperteez Technology</li>
+                            <li><span>July,2021 - September,2021</span><br>Python Training at Digitute</li>
+                            <li><span>May,2021 - June,2021</span><br>Internship at Sales & Marketing in Homeflic Wegrow
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>B-Tech in Computer Science Engineering from BUIE Bankura.</li>
+                            <li><span>2019</span><br>HS in Science from FDI Jalpaiguri.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------services----------------- -->
+    <div id="services">
+        <div class="conintainer">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Working on the front-end & back-end part</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Design web landing page</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-ad"></i>
+                    <h2>Marketing</h2>
+                    <p>Working on promote or selling of a product or service </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------portfolio----------------- -->
+    <div id="portfolio">
+        <div class="cointainer">
+            <h1 class="sub-titles">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img1.png" height="370px">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>Here online resumes for coding professionals that also contain examples of coding projects
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images.png">
+                    <div class="layer">
+                        <h3>Note App</h3>
+                        <p>In this app user write note which is save and the user tread the note in feuture.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images1.png" height="375px">
+                    <div class="layer">
+                        <h3>Simple Calculater</h3>
+                        <p>In this project user calculate the simple problem.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- --------------contact------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-titled">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>abc@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>12345677</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/saikat.sen.12?mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+                        <!-- <a href=""><i class="fab fa-twitter-square"></i></a> -->
+                        <a href="https://instagram.com/sensaikat2001?igshid=ZDdkNTZiNTM="><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/saikat-sen-4b7530211"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="cv.pdf" download class="btn btn2">Downlod CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="form.php" method="post">
+                        <input type="text" name="Name" placeholder="Your name" id="name" required>
+                        <input type="email" name="Email" placeholder="Your Email" id="email" required>
+                        <textarea name="Message" rows="10" placeholder="Your Message" id="meassage"></textarea>
+                        <button type="submit" id="submit" name="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="coppyright">
+            <p>Thank You <i class="fas fa-heart"></i> Visiting The Page.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
